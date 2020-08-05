@@ -10,3 +10,16 @@ C:\Users\ASUS\source\repos\QLCF\QLCF\obj\Debug\QLCF.pdb
 C:\Users\ASUS\source\repos\QLCF\QLCF\obj\Debug\QLCF.fLogin.resources
 C:\Users\ASUS\source\repos\QLCF\QLCF\obj\Debug\QLCF.fAccountProfile.resources
 C:\Users\ASUS\source\repos\QLCF\QLCF\obj\Debug\QLCF.fTableManeger.resources
+F:\software engineering\final term project\QLCF\QLCF\bin\Debug\QLCF.exe.config
+F:\software engineering\final term project\QLCF\QLCF\bin\Debug\QLCF.exe
+F:\software engineering\final term project\QLCF\QLCF\bin\Debug\QLCF.pdb
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.csprojAssemblyReference.cache
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.fAccountProfile.resources
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.fAdmin.resources
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.fLogin.resources
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.fTableManeger.resources
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.Properties.Resources.resources
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.csproj.GenerateResource.cache
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.csproj.CoreCompileInputs.cache
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.exe
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.pdb
