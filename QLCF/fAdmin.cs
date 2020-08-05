@@ -26,5 +26,26 @@ namespace QLCF
         {
 
         }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker4_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+
+        private void btnCountSalary_Click(object sender, EventArgs e)
+        {
+            fCountSalary f = new fCountSalary();
+            f.ShowDialog();
+        }
     }
 }

@@ -23,3 +23,17 @@ F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.csproj.Gener
 F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.csproj.CoreCompileInputs.cache
 F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.exe
 F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.pdb
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\bin\Debug\QLCF.exe.config
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\bin\Debug\QLCF.exe
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\bin\Debug\QLCF.pdb
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.csprojAssemblyReference.cache
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fAccountProfile.resources
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fAdmin.resources
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fLogin.resources
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fTableManeger.resources
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.Properties.Resources.resources
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.csproj.GenerateResource.cache
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.csproj.CoreCompileInputs.cache
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.exe
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.pdb
+C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fCountSalary.resources
