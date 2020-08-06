@@ -708,7 +708,7 @@
             this.label5.Size = new System.Drawing.Size(104, 24);
             this.label5.TabIndex = 0;
             this.label5.Text = "Loại món:";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+
             // 
             // cbFoodCategory
             // 
@@ -812,7 +812,7 @@
             this.dtgvBill.RowHeadersWidth = 51;
             this.dtgvBill.Size = new System.Drawing.Size(1100, 422);
             this.dtgvBill.TabIndex = 0;
-            this.dtgvBill.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgvBill_CellContentClick);
+
             // 
             // panel2
             // 
@@ -996,7 +996,7 @@
             this.label12.Size = new System.Drawing.Size(138, 19);
             this.label12.TabIndex = 6;
             this.label12.Text = "Chọn nhân viên:";
-            this.label12.Click += new System.EventHandler(this.label12_Click);
+
             // 
             // dateTimePicker4
             // 
@@ -1005,7 +1005,7 @@
             this.dateTimePicker4.Name = "dateTimePicker4";
             this.dateTimePicker4.Size = new System.Drawing.Size(265, 22);
             this.dateTimePicker4.TabIndex = 5;
-            this.dateTimePicker4.ValueChanged += new System.EventHandler(this.dateTimePicker4_ValueChanged);
+
             // 
             // menuStrip1
             // 
@@ -1015,7 +1015,7 @@
             this.menuStrip1.Size = new System.Drawing.Size(1108, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip1";
-            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
+           
             // 
             // btnCountSalary
             // 

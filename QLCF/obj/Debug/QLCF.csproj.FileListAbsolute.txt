@@ -37,3 +37,4 @@ C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.csproj.CoreCompileInp
 C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.exe
 C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.pdb
 C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fCountSalary.resources
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.fCountSalary.resources
