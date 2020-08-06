@@ -28,7 +28,24 @@ namespace QLCF
 
         void LoadAccountList()
         {
-            SqlConnection connection = new SqlConnection();
+            string connectionSTR = "Data Source=.\\sqlexpress;Initial Catalog=QuanLyQuanCafe;Integrated Security=True";
+            SqlConnection connection = new SqlConnection(connectionSTR);
+            
+            string query = "SELECT * FROM dbo.Account";
+
+            connection.Open();
+
+            SqlCommand command = new SqlCommand(query, connection);
+
+            DataTable data = new DataTable();
+
+            SqlDataAdapter adapter = new SqlDataAdapter(command);
+
+            adapter.Fill(data);
+
+            connection.Close();
+
+            dtgvAccount.DataSource = data;
         }
     }
 }
