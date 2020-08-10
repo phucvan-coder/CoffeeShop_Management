@@ -26,7 +26,6 @@ namespace QLCF
             fCountSalary f = new fCountSalary();
             f.ShowDialog();
         }
-
         void LoadAccountList()
         {
             string query = "SELECT * FROM dbo.Account";
