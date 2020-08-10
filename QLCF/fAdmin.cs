@@ -17,6 +17,9 @@ namespace QLCF
         public fAdmin()
         {
             InitializeComponent();
+            LoadBillList();
+            LoadTableList();
+            loadFoodList();
             LoadAccountList();
         }
 
@@ -26,11 +29,33 @@ namespace QLCF
             fCountSalary f = new fCountSalary();
             f.ShowDialog();
         }
+        
+        //hàm hiển thị danh sách tài khoản
         void LoadAccountList()
         {
             string query = "SELECT * FROM dbo.Account";
-            DataProvider provider = new DataProvider();
-            dtgvAccount.DataSource = provider.ExcuteQuery(query);
+            dtgvAccount.DataSource = DataProvider.Instance.ExcuteQuery(query);
+        }
+
+        //hàm hiển thị doanh thu
+        void LoadBillList()
+        {
+            string query = "SELECT * FROM dbo.Bill";
+            dtgvBill.DataSource = DataProvider.Instance.ExcuteQuery(query);
+        }
+        
+        //hàm hiển thị danh sách thức ăn
+        void loadFoodList()
+        {
+            string query = "SELECT * FROM dbo.Food";
+            dtgvFood.DataSource = DataProvider.Instance.ExcuteQuery(query);
+        }
+
+        //hàm hiển thị danh sách bàn ăn
+        void LoadTableList()
+        {
+            string query = "SELECT * FROM dbo.TableFood";
+            dtgvTable.DataSource = DataProvider.Instance.ExcuteQuery(query);
         }
     }
 }
