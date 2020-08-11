@@ -1,4 +1,5 @@
-﻿using System;
+﻿using QLCF.DAO;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -24,10 +25,23 @@ namespace QLCF
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            fTableManeger f = new fTableManeger();
-            this.Hide();
-            f.ShowDialog();
-            this.Show();
+            string userName = txbUserName.Text;
+            string password = txbPassWord.Text;
+            if (Login(userName,password)) {
+                fTableManeger f = new fTableManeger();
+                this.Hide();
+                f.ShowDialog();
+                this.Show();
+            }
+            else
+            {
+                MessageBox.Show("Thông tin tài khoản hoặc mật khẩu không chính xác !");
+            }
+        }
+
+        bool Login(string userName, string password)
+        {
+            return AccountDAO.Instance.Login(userName, password);
         }
 
         private void btnExit_Click(object sender, EventArgs e)
