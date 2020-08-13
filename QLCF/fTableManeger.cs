@@ -15,8 +15,30 @@ namespace QLCF
         public fTableManeger()
         {
             InitializeComponent();
+            LoadTable();
         }
+        #region Method
+        void LoadTable(){
+            List<Talble> tableList = TableDAO.Instance.LoadTableList();
+            foreach (Table item in tableList){
+             Button btn = new Button(){
+             Width = TableDAO.TableWitdh, Height= TableDAO.TableHeight};
+                btn.Text = item.Name + Enviroment.NewLine + item.Status;
+                switch(item.Status){
+                    case "Trống":
+                        btn.BackColor = Color.Aqua;
+                        break;
+                        default:
+                        BackColor = Color.LightPink;
+                        break;
+                        }
+             flpTable.Controls.Add(btn);
+                
+        }
+        #endregion
 
+
+        #region Events
         private void nmFoodCount_ValueChanged(object sender, EventArgs e)
         {
 
@@ -43,5 +65,6 @@ namespace QLCF
             fAdmin f = new fAdmin();
             f.ShowDialog();
         }
+        #endregion
     }
 }
