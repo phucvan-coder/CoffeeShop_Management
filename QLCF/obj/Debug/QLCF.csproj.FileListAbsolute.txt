@@ -38,3 +38,14 @@ C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.exe
 C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.pdb
 C:\Dự án CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fCountSalary.resources
 F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.fCountSalary.resources
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.csprojAssemblyReference.cache
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fAccountProfile.resources
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fAdmin.resources
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fCountSalary.resources
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fLogin.resources
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fTableManeger.resources
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.Properties.Resources.resources
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.csproj.GenerateResource.cache
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.csproj.CoreCompileInputs.cache
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.exe
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.pdb
