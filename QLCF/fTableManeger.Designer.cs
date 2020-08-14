@@ -1,4 +1,6 @@
-﻿namespace QLCF
+﻿using System;
+
+namespace QLCF
 {
     partial class fTableManager
     {
@@ -252,6 +254,31 @@
             this.ResumeLayout(false);
             this.PerformLayout();
 
+        }
+
+        private void fTableManeger_Load(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void nmFoodCount_ValueChanged(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void thôngTinCáNhânToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
+        }
+
+        private void adminToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         #endregion
