@@ -43,9 +43,12 @@ D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fAccountProfile.resources
 D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fAdmin.resources
 D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fCountSalary.resources
 D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fLogin.resources
-D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fTableManeger.resources
 D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.Properties.Resources.resources
 D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.csproj.GenerateResource.cache
 D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.csproj.CoreCompileInputs.cache
 D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.exe
 D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.pdb
+D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fTableManager.resources
+D:\CNPM\CoffeeShop_Management\QLCF\bin\Debug\QLCF.exe.config
+D:\CNPM\CoffeeShop_Management\QLCF\bin\Debug\QLCF.exe
+D:\CNPM\CoffeeShop_Management\QLCF\bin\Debug\QLCF.pdb

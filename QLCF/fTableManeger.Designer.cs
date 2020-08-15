@@ -266,17 +266,17 @@ namespace QLCF
             throw new NotImplementedException();
         }
 
-        private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             throw new NotImplementedException();
         }
 
-        private void thôngTinCáNhânToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void ToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             throw new NotImplementedException();
         }
 
-        private void adminToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ToolStripMenuItem2_Click(object sender, EventArgs e)
         {
             throw new NotImplementedException();
         }

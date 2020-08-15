@@ -28,7 +28,7 @@ namespace QLCF
             string userName = txbUserName.Text;
             string password = txbPassWord.Text;
             if (Login(userName,password)) {
-                fTableManeger f = new fTableManeger();
+                fTableManager f = new fTableManager();
                 this.Hide();
                 f.ShowDialog();
                 this.Show();
