@@ -157,7 +157,7 @@
             this.tbAccount.Controls.Add(this.panel29);
             this.tbAccount.Location = new System.Drawing.Point(4, 22);
             this.tbAccount.Name = "tbAccount";
-            this.tbAccount.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tbAccount.Padding = new System.Windows.Forms.Padding(3);
             this.tbAccount.Size = new System.Drawing.Size(841, 393);
             this.tbAccount.TabIndex = 4;
             this.tbAccount.Text = "Tài khoản";
@@ -334,7 +334,7 @@
             this.tbTable.Controls.Add(this.panel20);
             this.tbTable.Location = new System.Drawing.Point(4, 22);
             this.tbTable.Name = "tbTable";
-            this.tbTable.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tbTable.Padding = new System.Windows.Forms.Padding(3);
             this.tbTable.Size = new System.Drawing.Size(841, 393);
             this.tbTable.TabIndex = 3;
             this.tbTable.Text = "Bàn ăn";
@@ -501,12 +501,12 @@
             this.tbFood.Controls.Add(this.panel4);
             this.tbFood.Controls.Add(this.panel3);
             this.tbFood.Location = new System.Drawing.Point(4, 22);
-            this.tbFood.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbFood.Margin = new System.Windows.Forms.Padding(2);
             this.tbFood.Name = "tbFood";
-            this.tbFood.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tbFood.Padding = new System.Windows.Forms.Padding(2);
             this.tbFood.Size = new System.Drawing.Size(841, 393);
             this.tbFood.TabIndex = 1;
-            this.tbFood.Text = "Thức ăn";
+            this.tbFood.Text = "Thức uống";
             this.tbFood.UseVisualStyleBackColor = true;
             // 
             // panel6
@@ -725,9 +725,9 @@
             this.tpBill.Controls.Add(this.panel2);
             this.tpBill.Controls.Add(this.panel1);
             this.tpBill.Location = new System.Drawing.Point(4, 22);
-            this.tpBill.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tpBill.Margin = new System.Windows.Forms.Padding(2);
             this.tpBill.Name = "tpBill";
-            this.tpBill.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tpBill.Padding = new System.Windows.Forms.Padding(2);
             this.tpBill.Size = new System.Drawing.Size(841, 393);
             this.tpBill.TabIndex = 0;
             this.tpBill.Text = "Doanh thu";
@@ -813,7 +813,7 @@
             this.tcAdmin.Controls.Add(this.tbAccount);
             this.tcAdmin.Controls.Add(this.tabSalary);
             this.tcAdmin.Location = new System.Drawing.Point(9, 10);
-            this.tcAdmin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tcAdmin.Margin = new System.Windows.Forms.Padding(2);
             this.tcAdmin.Name = "tcAdmin";
             this.tcAdmin.SelectedIndex = 0;
             this.tcAdmin.Size = new System.Drawing.Size(849, 419);
@@ -824,9 +824,9 @@
             this.tabSalary.Controls.Add(this.panel11);
             this.tabSalary.Controls.Add(this.panel14);
             this.tabSalary.Location = new System.Drawing.Point(4, 22);
-            this.tabSalary.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabSalary.Margin = new System.Windows.Forms.Padding(2);
             this.tabSalary.Name = "tabSalary";
-            this.tabSalary.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tabSalary.Padding = new System.Windows.Forms.Padding(2);
             this.tabSalary.Size = new System.Drawing.Size(841, 393);
             this.tabSalary.TabIndex = 5;
             this.tabSalary.Text = "Tính lương";
@@ -951,7 +951,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(869, 440);
             this.Controls.Add(this.tcAdmin);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "fAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Admin";

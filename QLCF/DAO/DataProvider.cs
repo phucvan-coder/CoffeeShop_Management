@@ -56,10 +56,10 @@ namespace QLCF.DAO
             return data;
         }
 
-        internal DataTable ExecuteQuery(string v)
+       /* internal DataTable ExecuteQuery(string v)
         {
             throw new NotImplementedException();
-        }
+        }*/
 
         public int ExcuteNonQuery(string query, object[] parameter = null)
         {

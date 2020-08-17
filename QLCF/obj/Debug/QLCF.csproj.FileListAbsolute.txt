@@ -17,7 +17,6 @@ F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.csprojAssemb
 F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.fAccountProfile.resources
 F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.fAdmin.resources
 F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.fLogin.resources
-F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.fTableManeger.resources
 F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.Properties.Resources.resources
 F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.csproj.GenerateResource.cache
 F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.csproj.CoreCompileInputs.cache
@@ -52,3 +51,4 @@ D:\CNPM\CoffeeShop_Management\QLCF\obj\Debug\QLCF.fTableManager.resources
 D:\CNPM\CoffeeShop_Management\QLCF\bin\Debug\QLCF.exe.config
 D:\CNPM\CoffeeShop_Management\QLCF\bin\Debug\QLCF.exe
 D:\CNPM\CoffeeShop_Management\QLCF\bin\Debug\QLCF.pdb
+F:\software engineering\final term project\QLCF\QLCF\obj\Debug\QLCF.fTableManager.resources
