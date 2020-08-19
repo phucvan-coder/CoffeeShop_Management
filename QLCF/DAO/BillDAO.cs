@@ -20,7 +20,7 @@ namespace QLCF.DAO
 
         public int GetBillIDByTableID(int id)
         {
-            DataTable data = DataProvider.Instance.ExcuteQuery("SELECT * FROM dbo.Bill WHEREW idTable = " + id + " AND status = 0");
+            DataTable data = DataProvider.Instance.ExcuteQuery("SELECT * FROM dbo.Bill WHERE idTable = " + id + " AND status = 0");
             //Điều kiện if nếu thành công trả ra id của bill, nếu thất bại trả về -1
             if (data.Rows.Count > 0)
             {
@@ -28,6 +28,24 @@ namespace QLCF.DAO
                 return bill.ID1;
             }
             return -1;
+        }
+
+        public void InsertBill(int id)
+        {
+            DataProvider.Instance.ExcuteQuery("EXEC USP_InsertBill @idTable", new object[] { id });
+        }
+
+        public int GetMaxIDBill()
+        {
+            try 
+            { 
+                return (int)DataProvider.Instance.ExcuteScalar("SELECT MAX(id) FROM dbo.Bill"); 
+            }
+            catch
+            {
+                return 1;
+            }
+            
         }
     }
 }
