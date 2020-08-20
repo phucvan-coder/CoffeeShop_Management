@@ -25,7 +25,7 @@ namespace QLCF.DAO
 
             string query = "SELECT * FROM FoodCategory";
 
-            DataTable data = DataProvider.Instance.ExcuteQuery(query);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
 
             foreach (DataRow item in data.Rows)
             {

@@ -34,28 +34,28 @@ namespace QLCF
         void LoadAccountList()
         {
             string query = "SELECT * FROM dbo.Account";
-            dtgvAccount.DataSource = DataProvider.Instance.ExcuteQuery(query);
+            dtgvAccount.DataSource = DataProvider.Instance.ExecuteQuery(query);
         }
 
         //hàm hiển thị doanh thu
         void LoadBillList()
         {
             string query = "SELECT * FROM dbo.Bill";
-            dtgvBill.DataSource = DataProvider.Instance.ExcuteQuery(query);
+            dtgvBill.DataSource = DataProvider.Instance.ExecuteQuery(query);
         }
         
         //hàm hiển thị danh sách thức ăn
         void loadFoodList()
         {
             string query = "SELECT * FROM dbo.Food";
-            dtgvFood.DataSource = DataProvider.Instance.ExcuteQuery(query);
+            dtgvFood.DataSource = DataProvider.Instance.ExecuteQuery(query);
         }
 
         //hàm hiển thị danh sách bàn ăn
         void LoadTableList()
         {
             string query = "SELECT * FROM dbo.TableFood";
-            dtgvTable.DataSource = DataProvider.Instance.ExcuteQuery(query);
+            dtgvTable.DataSource = DataProvider.Instance.ExecuteQuery(query);
         }
     }
 }

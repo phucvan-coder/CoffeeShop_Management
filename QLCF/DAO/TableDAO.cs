@@ -28,7 +28,7 @@ namespace QuanLyQuanCafe.DAO
         {
             List<Table> tableList = new List<Table>();
 
-            DataTable data = DataProvider.Instance.ExcuteQuery("USP_GetTableList");
+            DataTable data = DataProvider.Instance.ExecuteQuery("USP_GetTableList");
 
             foreach (DataRow item in data.Rows)
             {

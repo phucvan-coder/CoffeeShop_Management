@@ -24,7 +24,7 @@ namespace QLCF.DAO
 
         private string connectionSTR = @"Data Source=.\sqlexpress;Initial Catalog=QuanLyQuanCafe;Integrated Security=True";
 
-        public DataTable ExcuteQuery(string query, object[] parameter = null)
+        public DataTable ExecuteQuery(string query, object[] parameter = null)
         {
             DataTable data = new DataTable();
             using (SqlConnection connection = new SqlConnection(connectionSTR))
@@ -61,7 +61,7 @@ namespace QLCF.DAO
             throw new NotImplementedException();
         }*/
 
-        public int ExcuteNonQuery(string query, object[] parameter = null)
+        public int ExecuteNonQuery(string query, object[] parameter = null)
         {
             int data = 0;
             using (SqlConnection connection = new SqlConnection(connectionSTR))
@@ -93,7 +93,7 @@ namespace QLCF.DAO
             return data;
         }
 
-        public object ExcuteScalar(string query, object[] parameter = null)
+        public object ExecuteScalar(string query, object[] parameter = null)
         {
             object data = 0;
             using (SqlConnection connection = new SqlConnection(connectionSTR))

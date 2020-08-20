@@ -22,7 +22,7 @@ namespace QLCF.DAO
         public List<BillInfo> GetListBillInfo(int id)
         {
             List<BillInfo> ListBillInfo = new List<BillInfo>();
-            DataTable data = DataProvider.Instance.ExcuteQuery("SELECT * FROM dbo.BillInfo WHERE idBill = " + id);
+            DataTable data = DataProvider.Instance.ExecuteQuery("SELECT * FROM dbo.BillInfo WHERE idBill = " + id);
 
             foreach (DataRow item in data.Rows)
             {
@@ -35,7 +35,7 @@ namespace QLCF.DAO
 
         public void InsertBillInfo(int idBill, int idFood, int count)
         {
-            DataProvider.Instance.ExcuteQuery("USP_InsertBillInfo @idBill, @idFood, @count", new object[] { idBill, idFood, count });
+            DataProvider.Instance.ExecuteNonQuery("USP_InsertBillInfo @idBill , @idFood , @count", new object[] { idBill, idFood, count });
         }
     }
 }

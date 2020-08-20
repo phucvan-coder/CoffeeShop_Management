@@ -24,7 +24,7 @@ namespace QLCF.DAO
         {
             List<Food> list = new List<Food>();
             string query = "SELECT * FROM food WHERE idCategory = " + id;
-            DataTable data = DataProvider.Instance.ExcuteQuery(query);
+            DataTable data = DataProvider.Instance.ExecuteQuery(query);
 
             foreach (DataRow item in data.Rows)
             {
