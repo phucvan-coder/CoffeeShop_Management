@@ -13,18 +13,21 @@ namespace QLCF.DTO
         private DateTime? dateCheckIn;
         private DateTime? dateCheckOut;
         private int status;
+        private int discount;
 
         public int ID1 { get => ID; set => ID = value; }
         public DateTime? DateCheckIn { get => dateCheckIn; set => dateCheckIn = value; }
         public DateTime? DateCheckOut { get => dateCheckOut; set => dateCheckOut = value; }
         public int Status { get => status; set => status = value; }
+        public int Discount { get => discount; set => discount = value; }
 
-        public Bill(int id, DateTime? dateCheckin, DateTime? dateCheckOut, int status)
+        public Bill(int id, DateTime? dateCheckin, DateTime? dateCheckOut, int status, int discount = 0)
         {
             this.ID = id;
             this.DateCheckIn = dateCheckIn;
             this.DateCheckOut = dateCheckOut;
             this.status = status;
+            this.Discount = discount;
         }
 
         public Bill(DataRow row)
@@ -35,6 +38,7 @@ namespace QLCF.DTO
             if(dateCheckOutTemp.ToString() != "")
                 this.DateCheckOut = (DateTime?)dateCheckOutTemp;
             this.status = (int)row["status"];
+            this.Discount = (int)row["discount"];
         }
     }
 }

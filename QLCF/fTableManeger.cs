@@ -152,12 +152,15 @@ namespace QLCF
             Table table = lsvBill.Tag as Table;
 
             int idBill = BillDAO.Instance.GetBillIDByTableID(table.ID);
+            int discount = (int)nmDisCount.Value;
+            double totalPrice = Convert.ToDouble(txbTotalPrice.Text.Split(',')[0])*1000;
+            double finalTotalPrice = totalPrice - (totalPrice / 100) * discount;
 
-            if(idBill != -1)
+            if (idBill != -1)
             {
-                if(MessageBox.Show("Bạn có chắc muốn thanh toán hóa đơn cho bàn "  + table.Name, "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
+                if(MessageBox.Show(string.Format("Bạn có chắc muốn thanh toán hóa đơn cho bàn {0}\n Giảm giá: {1}%\n Tổng tiền: {2}VNĐ\n Tổng tiền khi áp dụng giảm giá: {3}VNĐ",table.Name, discount, totalPrice, finalTotalPrice), "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
                 {
-                    BillDAO.Instance.CheckOut(idBill);
+                    BillDAO.Instance.CheckOut(idBill, discount);
                     ShowBill(table.ID);
                     LoadTable();
                 }
