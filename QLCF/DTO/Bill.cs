@@ -38,7 +38,9 @@ namespace QLCF.DTO
             if(dateCheckOutTemp.ToString() != "")
                 this.DateCheckOut = (DateTime?)dateCheckOutTemp;
             this.status = (int)row["status"];
-            this.Discount = (int)row["discount"];
+            
+            if(row["discount"].ToString() != "")
+                this.Discount = (int)row["discount"];
         }
     }
 }
