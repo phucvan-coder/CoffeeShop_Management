@@ -167,6 +167,7 @@ namespace QLCF
             {
                 if(MessageBox.Show(string.Format("Bạn có chắc muốn thanh toán hóa đơn cho bàn {0}\n Giảm giá: {1}%\n Tổng tiền: {2}VNĐ\n Tổng tiền khi áp dụng giảm giá: {3}VNĐ",table.Name, discount, totalPrice, finalTotalPrice), "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
                 {
+                    MessageBox.Show("Thanh toán thành công");
                     BillDAO.Instance.CheckOut(idBill, discount);
                     ShowBill(table.ID);
                     LoadTable();
